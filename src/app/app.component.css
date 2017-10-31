@@ -1,0 +1,27 @@
+#nav{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2px;
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+li{
+  float: left;
+  display: block;
+  width: 160px;
+}
+
+#input, #button{
+  float: right;
+}
